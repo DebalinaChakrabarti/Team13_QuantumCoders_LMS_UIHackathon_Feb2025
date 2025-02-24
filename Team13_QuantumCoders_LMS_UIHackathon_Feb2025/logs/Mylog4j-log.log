@@ -1,0 +1,179 @@
+[INFO ]2025-02-23 21:01:46.193[main]utilities.Constants1)-Admin is logged in
+[INFO ]2025-02-23 21:01:50.807[main]utilities.Constants1)-Admin is on the home page
+[INFO ]2025-02-23 21:01:51.184[main]utilities.Constants1)-Admin clicks program on the navigation bar
+[INFO ]2025-02-23 21:01:51.189[main]utilities.Constants1)-Admin should navigate to the program page
+[INFO ]2025-02-23 21:01:51.550[main]utilities.Constants1)-Admin is logged in
+[INFO ]2025-02-23 21:02:02.778[main]utilities.Constants1)-Admin is on the home page
+[INFO ]2025-02-23 21:02:02.881[main]utilities.Constants1)-Admin clicks program on the navigation bar
+[INFO ]2025-02-23 21:02:03.142[main]utilities.Constants1)-Admin is able to view the Logout in menu bar
+[INFO ]2025-02-23 21:02:03.175[main]utilities.Constants1)-Admin is on the home page
+[INFO ]2025-02-23 21:02:03.289[main]utilities.Constants1)-Admin clicks program on the navigation bar
+[INFO ]2025-02-23 21:02:03.319[main]utilities.Constants1)-Admin is able to view the LMS - Learning Management System in menu bar
+[INFO ]2025-02-23 21:02:03.609[main]utilities.Constants1)-Admin clicks program on the navigation bar
+[INFO ]2025-02-23 21:02:03.909[main]utilities.Constants1)-Admin is able to see Add New Program
+[INFO ]2025-02-23 21:02:04.153[main]utilities.Constants1)-Admin is logged in
+[INFO ]2025-02-23 21:02:15.349[main]utilities.Constants1)-Admin is on the home page
+[INFO ]2025-02-23 21:02:15.479[main]utilities.Constants1)-Admin clicks program on the navigation bar
+[INFO ]2025-02-23 21:02:15.523[main]utilities.Constants1)-Admin should see the Manage Program Heading
+[INFO ]2025-02-23 21:02:15.572[main]utilities.Constants1)-Admin should see all heading names
+[INFO ]2025-02-23 21:02:15.634[main]utilities.Constants1)-Admin should see the Delete Button
+[INFO ]2025-02-23 21:02:15.701[main]utilities.Constants1)-Admin should see search bar
+[INFO ]2025-02-23 21:02:15.761[main]utilities.Constants1)-Admin should see checkbox
+[INFO ]2025-02-23 21:02:15.840[main]utilities.Constants1)-Admin should see the Edit and Delete button
+[INFO ]2025-02-23 21:02:16.069[main]utilities.Constants1)-Admin should see the pagination text
+[INFO ]2025-02-23 21:02:16.115[main]utilities.Constants1)-Admin should see the footer text
+[INFO ]2025-02-23 21:02:16.346[main]utilities.Constants1)-Admin is logged in
+[INFO ]2025-02-23 21:02:27.589[main]utilities.Constants1)-Admin is on the Program page
+[INFO ]2025-02-23 21:02:27.700[main]utilities.Constants1)-Admin clicks program on the navigation bar
+[INFO ]2025-02-23 21:02:28.054[main]utilities.Constants1)-Admin is able to see Add New Program
+[INFO ]2025-02-23 21:02:28.067[main]utilities.Constants1)-Admin is on the Program page
+[INFO ]2025-02-23 21:02:28.195[main]utilities.Constants1)-Admin clicks Program details
+[INFO ]2025-02-23 21:02:28.197[main]utilities.Constants1)-Admin is seeing pop up window
+[INFO ]2025-02-23 21:02:28.252[main]utilities.Constants1)-Admin is seeing program details window
+[INFO ]2025-02-23 21:02:28.295[main]utilities.Constants1)-Admin is seeing asterisk mark  beside mandatory field  
+[INFO ]2025-02-23 21:02:28.310[main]utilities.Constants1)-Admin is in program details form  
+[INFO ]2025-02-23 21:02:28.413[main]utilities.Constants1)-Admin is clicking save Button 
+[INFO ]2025-02-23 21:02:28.440[main]utilities.Constants1)-Admin is getting the field required text  
+[INFO ]2025-02-23 21:02:28.543[main]utilities.Constants1)-Admin is clicking on the cancel button 
+[INFO ]2025-02-23 21:02:29.101[main]utilities.Constants1)-Admin is entering the name in text box 
+[INFO ]2025-02-23 21:02:29.214[main]utilities.Constants1)-Admin is entering the Description 
+[INFO ]2025-02-23 21:02:29.302[main]utilities.Constants1)-Admin is se;lecting the radio button
+[INFO ]2025-02-23 21:02:29.303[main]utilities.Constants1)-Admin is seeing the Active Selected
+[INFO ]2025-02-23 21:02:29.387[main]utilities.Constants1)-Admin is saving the program
+[INFO ]2025-02-23 21:02:29.411[main]utilities.Constants1)-Admin is getting the field required text  
+[INFO ]2025-02-23 21:02:29.509[main]utilities.Constants1)-Admin is Clicking on the cancel
+[INFO ]2025-02-23 21:02:30.526[main]utilities.Constants1)-Admin is seeing the program details disappear
+[INFO ]2025-02-23 21:02:30.690[main]utilities.Constants1)-Admin searches program name created
+[INFO ]2025-02-23 21:02:30.691[main]utilities.Constants1)-Admin should see the program created
+[INFO ]2025-02-23 21:02:30.990[main]utilities.Constants1)-Admin is on the program details form
+[INFO ]2025-02-23 21:02:31.110[main]utilities.Constants1)-Admin click on xbutton
+[INFO ]2025-02-23 21:02:32.123[main]utilities.Constants1)-Admin is seeing the program details disappear
+[INFO ]2025-02-23 21:02:32.456[main]utilities.Constants1)-Admin is logged in
+[INFO ]2025-02-23 21:41:58.260[main]utilities.Constants1)-Admin is on the home page
+[INFO ]2025-02-23 21:42:06.588[main]utilities.Constants1)-Admin is on the home page
+[INFO ]2025-02-23 21:43:58.394[main]utilities.Constants1)-Admin is logged in
+[INFO ]2025-02-23 21:44:03.549[main]utilities.Constants1)-Admin is on the home page
+[INFO ]2025-02-23 21:44:03.811[main]utilities.Constants1)-Admin clicks program on the navigation bar
+[INFO ]2025-02-23 21:44:03.811[main]utilities.Constants1)-Admin should navigate to the program page
+[INFO ]2025-02-23 21:44:04.012[main]utilities.Constants1)-Admin is on the home page
+[INFO ]2025-02-23 21:44:05.535[main]utilities.Constants1)-Admin is on the home page
+[INFO ]2025-02-23 21:44:09.057[main]utilities.Constants1)-Admin is logged in
+[INFO ]2025-02-23 21:44:20.459[main]utilities.Constants1)-Admin is on the home page
+[INFO ]2025-02-23 21:44:20.582[main]utilities.Constants1)-Admin clicks program on the navigation bar
+[INFO ]2025-02-23 21:44:20.744[main]utilities.Constants1)-Admin should see the Manage Program Heading
+[INFO ]2025-02-23 21:44:20.796[main]utilities.Constants1)-Admin should see all heading names
+[INFO ]2025-02-23 21:44:20.874[main]utilities.Constants1)-Admin should see the Delete Button
+[INFO ]2025-02-23 21:44:20.942[main]utilities.Constants1)-Admin should see search bar
+[INFO ]2025-02-23 21:44:21.025[main]utilities.Constants1)-Admin should see checkbox
+[INFO ]2025-02-23 21:44:21.148[main]utilities.Constants1)-Admin should see the Edit and Delete button
+[INFO ]2025-02-23 21:44:21.516[main]utilities.Constants1)-Admin should see the pagination text
+[INFO ]2025-02-23 21:44:21.592[main]utilities.Constants1)-Admin should see the footer text
+[INFO ]2025-02-23 21:44:21.913[main]utilities.Constants1)-Admin is logged in
+[INFO ]2025-02-23 21:44:33.198[main]utilities.Constants1)-Admin is on the Program page
+[INFO ]2025-02-23 21:44:33.585[main]utilities.Constants1)-Admin clicks program on the navigation bar
+[INFO ]2025-02-23 21:44:34.070[main]utilities.Constants1)-Admin is able to see Add New Program
+[INFO ]2025-02-23 21:44:34.104[main]utilities.Constants1)-Admin is on the Program page
+[INFO ]2025-02-23 21:44:56.155[main]utilities.Constants1)-Admin is in program details form  
+[INFO ]2025-02-23 21:46:02.074[main]utilities.Constants1)-Admin is logged in
+[INFO ]2025-02-23 21:47:21.044[main]utilities.Constants1)-Admin is logged in
+[INFO ]2025-02-23 21:47:26.369[main]utilities.Constants1)-Admin is on the home page
+[INFO ]2025-02-23 21:47:26.769[main]utilities.Constants1)-Admin clicks program on the navigation bar
+[INFO ]2025-02-23 21:47:26.774[main]utilities.Constants1)-Admin should navigate to the program page
+[INFO ]2025-02-23 21:47:27.228[main]utilities.Constants1)-Admin is logged in
+[INFO ]2025-02-23 21:47:38.638[main]utilities.Constants1)-Admin is on the home page
+[INFO ]2025-02-23 21:47:38.761[main]utilities.Constants1)-Admin clicks program on the navigation bar
+[INFO ]2025-02-23 21:47:39.047[main]utilities.Constants1)-Admin is able to view the Logout in menu bar
+[INFO ]2025-02-23 21:47:39.080[main]utilities.Constants1)-Admin is on the home page
+[INFO ]2025-02-23 21:47:39.183[main]utilities.Constants1)-Admin clicks program on the navigation bar
+[INFO ]2025-02-23 21:47:39.215[main]utilities.Constants1)-Admin is able to view the LMS - Learning Management System in menu bar
+[INFO ]2025-02-23 21:47:39.520[main]utilities.Constants1)-Admin clicks program on the navigation bar
+[INFO ]2025-02-23 21:47:39.870[main]utilities.Constants1)-Admin is able to see Add New Program
+[INFO ]2025-02-23 21:47:40.143[main]utilities.Constants1)-Admin is logged in
+[INFO ]2025-02-23 21:47:51.465[main]utilities.Constants1)-Admin is on the home page
+[INFO ]2025-02-23 21:47:51.614[main]utilities.Constants1)-Admin clicks program on the navigation bar
+[INFO ]2025-02-23 21:47:51.658[main]utilities.Constants1)-Admin should see the Manage Program Heading
+[INFO ]2025-02-23 21:47:51.715[main]utilities.Constants1)-Admin should see all heading names
+[INFO ]2025-02-23 21:47:51.785[main]utilities.Constants1)-Admin should see the Delete Button
+[INFO ]2025-02-23 21:47:51.853[main]utilities.Constants1)-Admin should see search bar
+[INFO ]2025-02-23 21:47:51.936[main]utilities.Constants1)-Admin should see checkbox
+[INFO ]2025-02-23 21:47:52.037[main]utilities.Constants1)-Admin should see the Edit and Delete button
+[INFO ]2025-02-23 21:47:52.296[main]utilities.Constants1)-Admin should see the pagination text
+[INFO ]2025-02-23 21:47:52.366[main]utilities.Constants1)-Admin should see the footer text
+[INFO ]2025-02-23 21:47:52.462[main]utilities.Constants1)-Admin is logged in
+[INFO ]2025-02-23 21:48:03.740[main]utilities.Constants1)-Admin is on the Program page
+[INFO ]2025-02-23 21:48:03.844[main]utilities.Constants1)-Admin clicks program on the navigation bar
+[INFO ]2025-02-23 21:48:04.219[main]utilities.Constants1)-Admin is able to see Add New Program
+[INFO ]2025-02-23 21:48:04.234[main]utilities.Constants1)-Admin is on the Program page
+[INFO ]2025-02-23 21:48:04.383[main]utilities.Constants1)-Admin clicks Program details
+[INFO ]2025-02-23 21:48:04.385[main]utilities.Constants1)-Admin is seeing pop up window
+[INFO ]2025-02-23 21:48:04.472[main]utilities.Constants1)-Admin is seeing program details window
+[INFO ]2025-02-23 21:48:04.523[main]utilities.Constants1)-Admin is seeing asterisk mark  beside mandatory field  
+[INFO ]2025-02-23 21:48:04.547[main]utilities.Constants1)-Admin is in program details form  
+[INFO ]2025-02-23 21:48:04.680[main]utilities.Constants1)-Admin is clicking save Button 
+[INFO ]2025-02-23 21:48:04.720[main]utilities.Constants1)-Admin is getting the field required text  
+[INFO ]2025-02-23 21:48:04.882[main]utilities.Constants1)-Admin is clicking on the cancel button 
+[INFO ]2025-02-23 21:48:05.414[main]utilities.Constants1)-Admin is entering the name in text box 
+[INFO ]2025-02-23 21:48:05.556[main]utilities.Constants1)-Admin is entering the Description 
+[INFO ]2025-02-23 21:48:05.647[main]utilities.Constants1)-Admin is se;lecting the radio button
+[INFO ]2025-02-23 21:48:05.648[main]utilities.Constants1)-Admin is seeing the Active Selected
+[INFO ]2025-02-23 21:48:05.737[main]utilities.Constants1)-Admin is saving the program
+[INFO ]2025-02-23 21:48:05.759[main]utilities.Constants1)-Admin is getting the field required text  
+[INFO ]2025-02-23 21:48:05.861[main]utilities.Constants1)-Admin is Clicking on the cancel
+[INFO ]2025-02-23 21:48:06.877[main]utilities.Constants1)-Admin is seeing the program details disappear
+[INFO ]2025-02-23 21:48:07.059[main]utilities.Constants1)-Admin searches program name created
+[INFO ]2025-02-23 21:48:07.061[main]utilities.Constants1)-Admin should see the program created
+[INFO ]2025-02-23 21:48:07.397[main]utilities.Constants1)-Admin is on the program details form
+[INFO ]2025-02-23 21:48:07.511[main]utilities.Constants1)-Admin click on xbutton
+[INFO ]2025-02-23 21:48:08.522[main]utilities.Constants1)-Admin is seeing the program details disappear
+[INFO ]2025-02-23 21:48:08.877[main]utilities.Constants1)-Admin is logged in
+[INFO ]2025-02-23 22:32:24.194[main]utilities.Constants1)-Admin is logged in
+[INFO ]2025-02-23 22:32:30.342[main]utilities.Constants1)-Admin is logged in
+[INFO ]2025-02-23 22:32:41.966[main]utilities.Constants1)-Admin is on the home page
+[INFO ]2025-02-23 22:32:42.133[main]utilities.Constants1)-Admin clicks program on the navigation bar
+[INFO ]2025-02-23 22:32:42.148[main]utilities.Constants1)-Admin should navigate to the program page
+[INFO ]2025-02-23 22:32:42.905[main]utilities.Constants1)-Admin is logged in
+[INFO ]2025-02-23 22:32:54.474[main]utilities.Constants1)-Admin is on the home page
+[INFO ]2025-02-23 22:32:54.648[main]utilities.Constants1)-Admin clicks program on the navigation bar
+[INFO ]2025-02-23 22:32:55.114[main]utilities.Constants1)-Admin is able to view the Logout in menu bar
+[INFO ]2025-02-23 22:32:55.224[main]utilities.Constants1)-Admin is on the home page
+[INFO ]2025-02-23 22:32:55.421[main]utilities.Constants1)-Admin clicks program on the navigation bar
+[INFO ]2025-02-23 22:32:55.531[main]utilities.Constants1)-Admin is able to view the LMS - Learning Management System in menu bar
+[INFO ]2025-02-23 22:32:56.015[main]utilities.Constants1)-Admin clicks program on the navigation bar
+[INFO ]2025-02-23 22:32:56.476[main]utilities.Constants1)-Admin is able to see Add New Program
+[INFO ]2025-02-23 22:32:56.808[main]utilities.Constants1)-Admin is logged in
+[INFO ]2025-02-23 22:33:08.169[main]utilities.Constants1)-Admin is on the home page
+[INFO ]2025-02-23 22:33:08.306[main]utilities.Constants1)-Admin clicks program on the navigation bar
+[INFO ]2025-02-23 22:33:08.358[main]utilities.Constants1)-Admin should see the Manage Program Heading
+[INFO ]2025-02-23 22:33:08.671[main]utilities.Constants1)-Admin should see all heading names
+[INFO ]2025-02-23 22:33:08.842[main]utilities.Constants1)-Admin should see the Delete Button
+[INFO ]2025-02-23 22:33:08.968[main]utilities.Constants1)-Admin should see search bar
+[INFO ]2025-02-23 22:33:09.089[main]utilities.Constants1)-Admin should see checkbox
+[INFO ]2025-02-23 22:33:09.369[main]utilities.Constants1)-Admin should see the Edit and Delete button
+[INFO ]2025-02-23 22:33:09.703[main]utilities.Constants1)-Admin should see the pagination text
+[INFO ]2025-02-23 22:33:09.831[main]utilities.Constants1)-Admin should see the footer text
+[INFO ]2025-02-23 22:33:10.271[main]utilities.Constants1)-Admin is logged in
+[INFO ]2025-02-23 22:33:21.968[main]utilities.Constants1)-Admin is on the Program page
+[INFO ]2025-02-23 22:33:22.227[main]utilities.Constants1)-Admin clicks program on the navigation bar
+[INFO ]2025-02-23 22:33:22.917[main]utilities.Constants1)-Admin is able to see Add New Program
+[INFO ]2025-02-23 22:33:23.054[main]utilities.Constants1)-Admin is on the Program page
+[INFO ]2025-02-23 22:33:23.335[main]utilities.Constants1)-Admin clicks Program details
+[INFO ]2025-02-23 22:33:23.347[main]utilities.Constants1)-Admin is seeing pop up window
+[INFO ]2025-02-23 22:33:23.494[main]utilities.Constants1)-Admin is seeing program details window
+[INFO ]2025-02-23 22:33:23.561[main]utilities.Constants1)-Admin is seeing asterisk mark  beside mandatory field  
+[INFO ]2025-02-23 22:33:23.591[main]utilities.Constants1)-Admin is in program details form  
+[INFO ]2025-02-23 22:33:23.817[main]utilities.Constants1)-Admin is clicking save Button 
+[INFO ]2025-02-23 22:33:23.882[main]utilities.Constants1)-Admin is getting the field required text  
+[INFO ]2025-02-23 22:33:24.122[main]utilities.Constants1)-Admin is clicking on the cancel button 
+[INFO ]2025-02-23 22:33:24.774[main]utilities.Constants1)-Admin is entering the name in text box 
+[INFO ]2025-02-23 22:33:24.996[main]utilities.Constants1)-Admin is entering the Description 
+[INFO ]2025-02-23 22:33:25.212[main]utilities.Constants1)-Admin is se;lecting the radio button
+[INFO ]2025-02-23 22:33:25.212[main]utilities.Constants1)-Admin is seeing the Active Selected
+[INFO ]2025-02-23 22:33:25.425[main]utilities.Constants1)-Admin is saving the program
+[INFO ]2025-02-23 22:33:25.465[main]utilities.Constants1)-Admin is getting the field required text  
+[INFO ]2025-02-23 22:33:25.677[main]utilities.Constants1)-Admin is Clicking on the cancel
+[INFO ]2025-02-23 22:33:26.687[main]utilities.Constants1)-Admin is seeing the program details disappear
+[INFO ]2025-02-23 22:33:27.089[main]utilities.Constants1)-Admin searches program name created
+[INFO ]2025-02-23 22:33:27.092[main]utilities.Constants1)-Admin should see the program created
+[INFO ]2025-02-23 22:33:27.463[main]utilities.Constants1)-Admin is on the program details form
+[INFO ]2025-02-23 22:33:27.664[main]utilities.Constants1)-Admin click on xbutton
+[INFO ]2025-02-23 22:33:28.679[main]utilities.Constants1)-Admin is seeing the program details disappear
