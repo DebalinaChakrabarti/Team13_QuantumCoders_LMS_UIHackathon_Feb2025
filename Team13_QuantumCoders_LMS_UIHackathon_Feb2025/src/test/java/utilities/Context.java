@@ -3,6 +3,7 @@ package utilities;
 import org.openqa.selenium.WebDriver;
 
 import driverFactory.DriverFactory;
+import pageObjects.ClassPage;
 //import pageObjects.AddNewClass;
 //import pageObjects.AddNewClassPopup;
 //import pageObjects.Batch;
@@ -14,14 +15,17 @@ import driverFactory.DriverFactory;
 import pageObjects.LoginPage;
 
 public class Context {
-
+	
 	private DriverFactory driverFactory;
 	private LoginPage loginPage;	
+	private ClassPage classPage;	
 
 	public Context() {
 		driverFactory = new DriverFactory();
 		loginPage = new LoginPage(driverFactory.getDriver());
+		classPage = new ClassPage(driverFactory.getDriver());
 	}
+
 
 	public DriverFactory getDriverFactory() {
 		return driverFactory;
@@ -31,6 +35,9 @@ public class Context {
 		return loginPage;
 	}
 
+	public ClassPage getClassPage() {
+		return classPage;
+	}
 	
 	public void openBaseURL(String url) {
 		getDriverFactory().getDriver().get(url); // Use WebDriver to open the URL
