@@ -1,8 +1,7 @@
 package utilities;
 
-import org.openqa.selenium.WebDriver;
-
 import driverFactory.DriverFactory;
+import pageObjects.BatchPage;
 //import pageObjects.AddNewClass;
 //import pageObjects.AddNewClassPopup;
 //import pageObjects.Batch;
@@ -16,11 +15,13 @@ import pageObjects.LoginPage;
 public class Context {
 
 	private DriverFactory driverFactory;
-	private LoginPage loginPage;	
+	private LoginPage loginPage;
+	private BatchPage batchPage;
 
 	public Context() {
 		driverFactory = new DriverFactory();
 		loginPage = new LoginPage(driverFactory.getDriver());
+		batchPage = new BatchPage(driverFactory.getDriver());
 	}
 
 	public DriverFactory getDriverFactory() {
@@ -31,10 +32,12 @@ public class Context {
 		return loginPage;
 	}
 
-	
+	public BatchPage getBatchPage() {
+		return batchPage;
+	}
+
 	public void openBaseURL(String url) {
 		getDriverFactory().getDriver().get(url); // Use WebDriver to open the URL
 	}
-
 
 }
