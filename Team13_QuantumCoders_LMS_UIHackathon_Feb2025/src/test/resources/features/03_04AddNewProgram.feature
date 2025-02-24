@@ -40,16 +40,16 @@ Examples:
     When Admin clicks Cancel button
     #Then Admin can see Program Details form disappears 
     
-    Scenario: Verify enter program name
-    #Given Admin is on Program details form
-    When Admin enters the Name in the text box
+    Scenario Outline: Verify enter Program and Description name
+    Given Admin is on the Program details form
+    When Admin enters "<sheetname>" and "<ScenarioName>" in the text box
     #Then Admin can see the text entered 
     
-    Scenario: Verify enter description
-    #Given Admin is on Program details form
-    When Admin enters the Description in text box
-    #Then Admin can see the text entered in description box 
+    Examples: 
+      | sheetname | ScenarioName    |
+      | Program   | VerifyenterProgramandDescriptionname |
     
+   
     Scenario: Verify select Status
     #Given Admin is on Program details form
     When Admin selects the status of the program by clicking on the radio button "(Active/InActive)"

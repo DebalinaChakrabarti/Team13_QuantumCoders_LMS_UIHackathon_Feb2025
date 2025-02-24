@@ -59,9 +59,6 @@ public class ProgramPage_ValidationSteps extends Constants {
 	@Then("Admin should see Search bar with text as {string}")
 	public void admin_should_see_search_bar_with_text_as(String string) {
 		programpage.Search();
-//		String ExpectedResult="Search...";
-//		String ActualResult=programpage.Search();
-//		Assert.assertEquals( ActualResult,ExpectedResult,"Search text in search bar");
 		log.info("Admin should see search bar");
 	   
 	}
@@ -94,9 +91,6 @@ public class ProgramPage_ValidationSteps extends Constants {
 	public void admin_should_see_the_text_as_along_with_pagination_icon_below_the_table(String string) {
 		programpage.pageRefresh();
 		programpage.EntriesCheck();
-//		String ExpectedResult="Showing x to y of z entries";
-//	    String ActualResult=programpage.EntriesCheck();
-//		assertEquals( ActualResult, ExpectedResult, "Text should be visible in pagination");
 		log.info("Admin should see the pagination text");
 	}
 

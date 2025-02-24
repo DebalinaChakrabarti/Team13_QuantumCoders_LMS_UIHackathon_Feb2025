@@ -44,16 +44,13 @@ public class Program_MenuBarSteps extends Constants {
 
 //	@Then("Admin should see the page names as in order {string}")
 //	public void admin_should_see_the_page_names_as_in_order(String Logout) {
-//		//Assert.assertTrue("Logout menu item is not visible", Logout.isDisplayed());
 //		log.info("Admin is able to view the pages names as in order");
 //		
 //	}
 
 	@Given("Admin is on program page")
 	public void admin_is_on_program_page() {
-		//programpage.pageRefresh();
-		//programpage.clickProgram();
-		//programpage.AddSubMenu();
+		log.info("Admin is on program page");
 	}
 
 	@Then("Admin should see sub menu in menu bar as {string}")

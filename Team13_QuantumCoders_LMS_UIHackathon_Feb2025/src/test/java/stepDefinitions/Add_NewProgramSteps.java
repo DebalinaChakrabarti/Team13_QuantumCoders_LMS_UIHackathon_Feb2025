@@ -1,5 +1,7 @@
 package stepDefinitions;
 
+import java.io.IOException;
+
 import org.testng.Assert;
 
 import io.cucumber.java.en.Given;
@@ -58,6 +60,7 @@ public class Add_NewProgramSteps extends Constants {
 
 	@Given("Admin is on Program details form")
 	public void admin_is_on_program_details_form1() {
+		
 		log.info("Admin is in program details form  ");
 	    }
 
@@ -84,24 +87,24 @@ public class Add_NewProgramSteps extends Constants {
 	log.info("Admin is seeing program details disappers ");
 	   
 	}
-
-	@When("Admin enters the Name in the text box")
-	public void admin_enters_the_name_in_the_text_box() {
+	@Given("Admin is on the Program details form")
+	public void admin_is_on_program_the_details_form1() {
 		programpage.clickProgram();
-		programpage.AddNewProgram1();
-	    programpage.EnterProgramNameText();
+	    programpage.AddNewProgram1();
+		
+		log.info("Admin is in program details form  ");
+	    }
+
+	@When("Admin enters {string} and {string} in the text box")
+	public void admin_enters_and_in_the_text_box(String sheetname, String scenarioName) throws IOException, InterruptedException {
+	    programpage.AddProgramText(sheetname, scenarioName);
 	    log.info("Admin is entering the name in text box ");
 	}
+	
 
 	@Then("Admin can see the text entered")
 	public void admin_can_see_the_text_entered() {
 		 log.info("Admin should see the entered Text  ");
-	}
-
-	@When("Admin enters the Description in text box")
-	public void admin_enters_the_description_in_text_box() {
-	    programpage.EnterProgramDescriptionText();
-	    log.info("Admin is entering the Description ");
 	}
 
 	@Then("Admin can see the text entered in description box")
@@ -110,7 +113,7 @@ public class Add_NewProgramSteps extends Constants {
 	}
 
 	@When("Admin selects the status of the program by clicking on the radio button {string}")
-	public void admin_selects_the_status_of_the_program_by_clicking_on_the_radio_button(String string) {
+	public void admin_selects_the_status_of_the_program_by_clicking_on_the_radio_button(String string) throws InterruptedException {
 	    programpage.ActiveStatus();
 	    log.info("Admin is se;lecting the radio button");
 	}

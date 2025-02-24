@@ -1,5 +1,6 @@
 package pageObjects;
 
+import java.io.IOException;
 import java.time.Duration;
 import java.util.List;
 
@@ -22,8 +23,6 @@ public class ProgramPage extends Constants{
 	public ProgramPage(WebDriver driver){
 		this.driver = driver;
 	}
-	//JavascriptExecutor js = (JavascriptExecutor) driver;
-	//Locator
 	
 	//Navigation
 	
@@ -41,9 +40,8 @@ public class ProgramPage extends Constants{
     private By DeleteIcon = By.xpath("//button[@class='p-button-danger p-button p-component p-button-icon-only']");
     private By Search = By.xpath("//input[@class='p-inputtext p-component']");
     private By Checkbox = By.xpath ( "//div[@class='p-checkbox-box']");
-    private By CloumnHeaderLocator = By.xpath("//tr//th[contains(@class,'sortable')]");//sort
+    private By CloumnHeaderLocator = By.xpath("//tr//th[contains(@class,'sortable')]");
     private By EditDelete = By.xpath("//th[text()=' Edit / Delete ']");
-	//private By Allcheckbox = By.xpath("//div[@class='p-checkbox-box p-component']");
     private By Entries = By.xpath("//span[@class='p-paginator-current ng-star-inserted']");
     private By Footer=By.xpath("//div[@class='p-d-flex p-ai-center p-jc-between ng-star-inserted']");
     
@@ -126,7 +124,6 @@ public class ProgramPage extends Constants{
     }
 	
     public String EntriesCheck() {
-    	//js.executeScript("window.scrollBy(0, 500)");
     	String EntriesChecks=driver.findElement(Entries).getText();;
 		return EntriesChecks;
     }
@@ -165,13 +162,33 @@ public class ProgramPage extends Constants{
 	public void ClickCancel() {
 		driver.findElement(Cancel).click();
 	}
-	public void EnterProgramNameText() {
-		driver.findElement(EnterProgram).sendKeys("Teamonethree");
+	public void AddProgramText(String sheetname, String scenarioName) throws IOException, InterruptedException {
+		//WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+		System.out.println(sheetname);
+	       System.out.println(scenarioName);
+	       String programName;
+	       String programDescription; 
+	       String msg=null;
+	       int filterColumnIndex = 0;  
+	       List<String> rowData = xlutils.getRowData(sheetname, filterColumnIndex, scenarioName);
+	       programName = rowData.get(1);
+	       programDescription = rowData.get(2);
+	       driver.findElement(EnterProgram).sendKeys(programName.trim());
+	       Thread.sleep(1000);
+	       driver.findElement(EnterDescription).sendKeys(programDescription);
+	       Thread.sleep(1000);
+	       System.out.println(""+msg);
+	       driver.findElement(Active).click();
+	       Thread.sleep(1000);
+	       Saveprogram();
+	       msg=rowData.get(4);
+	       
 	}
-	public void EnterProgramDescriptionText() {
-		driver.findElement(EnterDescription).sendKeys("LMS hackathon");
-	}
-	public void ActiveStatus() {
+//	public void EnterProgramDescriptionText() {
+//		driver.findElement(EnterDescription).sendKeys("LMS hackathon");
+//	}
+	public void ActiveStatus() throws InterruptedException {
+		Thread.sleep(1000);
 		driver.findElement(Active).click();
 	}
 	public String MessageActive() {
