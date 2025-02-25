@@ -1,9 +1,12 @@
 package utilities;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 import driverFactory.DriverFactory;
 import pageObjects.ClassPage;
+import pageObjects.HomePage;
+import pageObjects.LogOutPage;
 //import pageObjects.AddNewClass;
 //import pageObjects.AddNewClassPopup;
 //import pageObjects.Batch;
@@ -19,11 +22,15 @@ public class Context {
 	private DriverFactory driverFactory;
 	private LoginPage loginPage;	
 	private ClassPage classPage;	
+	private LogOutPage logoutPage;
+	private HomePage homePage;
 
 	public Context() {
 		driverFactory = new DriverFactory();
 		loginPage = new LoginPage(driverFactory.getDriver());
 		classPage = new ClassPage(driverFactory.getDriver());
+		logoutPage = new LogOutPage(driverFactory.getDriver());
+		homePage = new HomePage(driverFactory.getDriver());
 	}
 
 
@@ -41,6 +48,14 @@ public class Context {
 	
 	public void openBaseURL(String url) {
 		getDriverFactory().getDriver().get(url); // Use WebDriver to open the URL
+	}
+
+	public LogOutPage getLogOutPage() {
+		return logoutPage;
+	}
+	
+	public HomePage getHomePage() {
+		return homePage;
 	}
 
 
