@@ -28,7 +28,7 @@ public class Program_NavigationSteps extends Constants{
 
 
 	@When("Admin clicks {string} on the navigation bar")
-	public void admin_clicks_on_the_navigation_bar(String string) {
+	public void admin_clicks_on_the_navigation_bar(String string) throws InterruptedException {
 		programpage.clickProgram();
 		log.info("Admin clicks program on the navigation bar");
 		

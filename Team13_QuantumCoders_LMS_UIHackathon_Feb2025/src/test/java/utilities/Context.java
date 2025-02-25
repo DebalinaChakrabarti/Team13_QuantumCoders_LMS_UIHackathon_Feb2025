@@ -13,19 +13,21 @@ import driverFactory.DriverFactory;
 //import pageObjects.DashboardPage;
 import pageObjects.LoginPage;
 import pageObjects.ProgramPage;
+import pageObjects.ProgramPageTwo;
 
 public class Context {
 
 	private DriverFactory driverFactory;
 	private LoginPage loginPage;
 	private ProgramPage program;
+	private ProgramPageTwo programPage;
 	
 
 	public Context() {
 		driverFactory = new DriverFactory();
 		loginPage = new LoginPage(driverFactory.getDriver());
 		program = new ProgramPage(driverFactory.getDriver());
-		
+		programPage= new ProgramPageTwo(driverFactory.getDriver());
 		
 	}
 
@@ -40,6 +42,10 @@ public class Context {
 	public  ProgramPage ProgramPage  () {
 		return program;
 	}
+	public ProgramPageTwo getEditProgramPage() {
+		return programPage;
+	}
+
 	
 	public void openBaseURL(String url) {
 		getDriverFactory().getDriver().get(url); // Use WebDriver to open the URL

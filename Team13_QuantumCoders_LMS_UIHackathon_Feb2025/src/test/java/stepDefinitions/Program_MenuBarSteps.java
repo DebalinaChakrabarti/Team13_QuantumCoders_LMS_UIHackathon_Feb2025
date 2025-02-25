@@ -21,6 +21,14 @@ public class Program_MenuBarSteps extends Constants {
 		programpage = context.ProgramPage();
     }
     
+
+      @Given("Admin is on home page after Loginng")
+     public void admin_is_on_home_page_after_loginng() {
+    	  log.info("Admin is on Home Page"); 
+    
+      }
+
+    
 	
 	@Then("Admin should see Logout in menu bar")
 	public void admin_should_see_logout_in_menu_bar() {
@@ -42,24 +50,21 @@ public class Program_MenuBarSteps extends Constants {
 	}
 
 
-//	@Then("Admin should see the page names as in order {string}")
-//	public void admin_should_see_the_page_names_as_in_order(String Logout) {
-//		log.info("Admin is able to view the pages names as in order");
-//		
-//	}
-
 	@Given("Admin is on program page")
 	public void admin_is_on_program_page() {
 		log.info("Admin is on program page");
 	}
+	
+	@When("Admin clicks {string} on the navigation Bar")
+	public void admin_clicks_on_the_navigation_bar(String string) throws InterruptedException {
+		programpage.clickProgram();
+		log.info("Admin clicking program");
+	}
 
 	@Then("Admin should see sub menu in menu bar as {string}")
 	public void admin_should_see_sub_menu_in_menu_bar_as(String ExpectedPageTitle) {
-		programpage.pageRefresh();
-		programpage.clickProgram();
-		programpage.AddSubMenu();
 		String actualpagetitle=programpage.AddSubMenu();
-		assertEquals( actualpagetitle, ExpectedPageTitle);
+		Assert.assertEquals( actualpagetitle, ExpectedPageTitle,"");
 		log.info("Admin is able to see Add New Program");
 	    
 	}

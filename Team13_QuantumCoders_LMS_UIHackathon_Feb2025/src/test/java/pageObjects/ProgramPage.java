@@ -56,11 +56,12 @@ public class ProgramPage extends Constants{
     private By EnterProgram = By.id("programName");
     private By EnterDescription = By.id("programDescription");
     private By Active = By.xpath("//p-radiobutton[@class='ng-untouched ng-pristine ng-valid']");////span[@class='p-radiobutton-icon']
-    private By Save = By.xpath("//span[@class='p-button-icon p-button-icon-left pi pi-check']");
+    private By Save = By.xpath("//span[contains(text(),'Save')]");
     private By XButton=By.xpath("//span[contains(@class,'p-dialog-header-close-icon')]");
 	//Action Methods
 	
-	public void clickProgram() {//Navigation Action
+	public void clickProgram() throws InterruptedException {//Navigation Action
+		Thread.sleep(1000);
 		driver.findElement(program).click();
 	}
 	public void pageRefresh()
@@ -163,7 +164,6 @@ public class ProgramPage extends Constants{
 		driver.findElement(Cancel).click();
 	}
 	public void AddProgramText(String sheetname, String scenarioName) throws IOException, InterruptedException {
-		//WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
 		System.out.println(sheetname);
 	       System.out.println(scenarioName);
 	       String programName;
@@ -184,9 +184,6 @@ public class ProgramPage extends Constants{
 	       msg=rowData.get(4);
 	       
 	}
-//	public void EnterProgramDescriptionText() {
-//		driver.findElement(EnterDescription).sendKeys("LMS hackathon");
-//	}
 	public void ActiveStatus() throws InterruptedException {
 		Thread.sleep(1000);
 		driver.findElement(Active).click();
