@@ -30,11 +30,11 @@ public class ApplicationHooks {
 	}
 	
 	
-//	@AfterAll(order = 0)
-//	public  static void quitBrowser() {
-//		System.out.println("=========quitBrowser=======================");		
-//		driver.quit();
-//	}
+	@AfterAll(order = 0)
+	public  static void quitBrowser() {
+		System.out.println("=========quitBrowser=======================");		
+		driver.quit();
+	}
 	
 	@After(order = 1)
 	public void screenShot(Scenario scenario) {

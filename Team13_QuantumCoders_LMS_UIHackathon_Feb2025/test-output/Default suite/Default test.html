@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>28/4/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>99/19/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Feb 23 22:32:14 EST 2025</td>
+<td>Started on:</td><td>Mon Feb 24 23:39:21 EST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>87 seconds (87951 ms)</td>
+<tr><td>Total time:</td><td>442 seconds (442810 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,74 +76,34 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate login with valid credentials", "Program Validation feature"</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;username&apos;]&quot;}
-  (Session info: chrome=133.0.6943.127)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8c9d15fd490495fa5f92c87b047faa87, findElement {value=//input[@id=&apos;username&apos;], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Users\vijay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54585}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54585/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8c9d15fd490495fa5f92c87b047faa87
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
-	at pageObjects.LoginPage.clicklogin(LoginPage.java:94)
-	at stepDefinitions.LoginPageSteps.admin_enter_valid_credentials_with_and_and_clicks_login_button_in_login_module(LoginPageSteps.java:32)
-	at ✽.Admin enter valid  credentials with &quot;Login&quot; and &quot;LoginWithValidCredentials&quot; and clicks login button in login module.(file:///C:/Users/vijay/git/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/src/test/resources/features/03_03ProgramPage_Validation.feature:7)
-</pre></div><a href='#' onClick='toggleBox("stack-trace501693751", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace501693751'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;username&apos;]&quot;}
-  (Session info: chrome=133.0.6943.127)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8c9d15fd490495fa5f92c87b047faa87, findElement {value=//input[@id=&apos;username&apos;], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Users\vijay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54585}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54585/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8c9d15fd490495fa5f92c87b047faa87
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
-	at pageObjects.LoginPage.clicklogin(LoginPage.java:94)
-	at stepDefinitions.LoginPageSteps.admin_enter_valid_credentials_with_and_and_clicks_login_button_in_login_module(LoginPageSteps.java:32)
-	at ✽.Admin enter valid  credentials with &quot;Login&quot; and &quot;LoginWithValidCredentials&quot; and clicks login button in login module.(file:///C:/Users/vijay/git/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/src/test/resources/features/03_03ProgramPage_Validation.feature:7)
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if class is created when only mandatory fields are entered and when all fields are entered with valid data in class module", "Add New Class popup"</td>
+<td><div><pre>java.lang.AssertionError: Class was not created! expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at stepDefinitions.AddNewClassPopUpSteps.admin_gets_message_class_added_successfully_from_with_scenario_name_in_class_module(AddNewClassPopUpSteps.java:105)
+	at ✽.Admin gets message Class added Successfully from &quot;Class&quot; with scenario name &quot;addClassWithOnlyMandatoryFields&quot; with Admin can see the class details popup closed and adding new class in class module(file:///C:/Users/vijay/git/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/src/test/resources/features/05_03AddNewClassPopUp.feature:44)
+</pre></div><a href='#' onClick='toggleBox("stack-trace656704934", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace656704934'><pre>java.lang.AssertionError: Class was not created! expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at stepDefinitions.AddNewClassPopUpSteps.admin_gets_message_class_added_successfully_from_with_scenario_name_in_class_module(AddNewClassPopUpSteps.java:105)
+	at ✽.Admin gets message Class added Successfully from &quot;Class&quot; with scenario name &quot;addClassWithOnlyMandatoryFields&quot; with Admin can see the class details popup closed and adding new class in class module(file:///C:/Users/vijay/git/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/src/test/resources/features/05_03AddNewClassPopUp.feature:44)
 </pre></div></td>
-<td>11</td>
+<td>19</td>
 <td>runner.TestRunner@3b79fd76</td></tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate login with valid credentials", "Add New Program"</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;username&apos;]&quot;}
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate navigation bar text on Home Page", "Scenarios related to Home Page functionality"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@id=&apos;login&apos;]&quot;}
   (Session info: chrome=133.0.6943.127)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8c9d15fd490495fa5f92c87b047faa87, findElement {value=//input[@id=&apos;username&apos;], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Users\vijay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54585}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54585/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8c9d15fd490495fa5f92c87b047faa87
+Command: [996c6b8d6c53e550812263e6e41999b7, findElement {using=xpath, value=//button[@id=&apos;login&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Users\vijay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55008}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55008/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 996c6b8d6c53e550812263e6e41999b7
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -158,19 +118,19 @@ Session ID: 8c9d15fd490495fa5f92c87b047faa87
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
-	at pageObjects.LoginPage.clicklogin(LoginPage.java:94)
-	at stepDefinitions.LoginPageSteps.admin_enter_valid_credentials_with_and_and_clicks_login_button_in_login_module(LoginPageSteps.java:32)
-	at ✽.Admin enter valid  credentials with &quot;Login&quot; and &quot;LoginWithValidCredentials&quot; and clicks login button in login module.(file:///C:/Users/vijay/git/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/src/test/resources/features/03_04AddNewProgram.feature:6)
-</pre></div><a href='#' onClick='toggleBox("stack-trace923437934", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace923437934'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;username&apos;]&quot;}
+	at pageObjects.LoginPage.getLoginButton(LoginPage.java:143)
+	at stepDefinitions.LoginPageSteps.admin_should_land_on_login_page(LoginPageSteps.java:57)
+	at ✽.Admin should land on login page(file:///C:/Users/vijay/git/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/src/test/resources/features/02_01Home.feature:17)
+</pre></div><a href='#' onClick='toggleBox("stack-trace948070788", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace948070788'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@id=&apos;login&apos;]&quot;}
   (Session info: chrome=133.0.6943.127)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8c9d15fd490495fa5f92c87b047faa87, findElement {value=//input[@id=&apos;username&apos;], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Users\vijay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54585}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54585/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8c9d15fd490495fa5f92c87b047faa87
+Command: [996c6b8d6c53e550812263e6e41999b7, findElement {using=xpath, value=//button[@id=&apos;login&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Users\vijay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55008}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55008/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 996c6b8d6c53e550812263e6e41999b7
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -185,23 +145,23 @@ Session ID: 8c9d15fd490495fa5f92c87b047faa87
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
-	at pageObjects.LoginPage.clicklogin(LoginPage.java:94)
-	at stepDefinitions.LoginPageSteps.admin_enter_valid_credentials_with_and_and_clicks_login_button_in_login_module(LoginPageSteps.java:32)
-	at ✽.Admin enter valid  credentials with &quot;Login&quot; and &quot;LoginWithValidCredentials&quot; and clicks login button in login module.(file:///C:/Users/vijay/git/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/src/test/resources/features/03_04AddNewProgram.feature:6)
+	at pageObjects.LoginPage.getLoginButton(LoginPage.java:143)
+	at stepDefinitions.LoginPageSteps.admin_should_land_on_login_page(LoginPageSteps.java:57)
+	at ✽.Admin should land on login page(file:///C:/Users/vijay/git/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/src/test/resources/features/02_01Home.feature:17)
 </pre></div></td>
-<td>11</td>
+<td>10</td>
 <td>runner.TestRunner@3b79fd76</td></tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate login with valid credentials", "Program Navigation Feature"</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;username&apos;]&quot;}
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate navigation bar text on Home Page", "Scenarios related to Home Page functionality"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@id=&apos;login&apos;]&quot;}
   (Session info: chrome=133.0.6943.127)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8c9d15fd490495fa5f92c87b047faa87, findElement {value=//input[@id=&apos;username&apos;], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Users\vijay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54585}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54585/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8c9d15fd490495fa5f92c87b047faa87
+Command: [996c6b8d6c53e550812263e6e41999b7, findElement {using=xpath, value=//button[@id=&apos;login&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Users\vijay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55008}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55008/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 996c6b8d6c53e550812263e6e41999b7
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -216,19 +176,19 @@ Session ID: 8c9d15fd490495fa5f92c87b047faa87
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
-	at pageObjects.LoginPage.clicklogin(LoginPage.java:94)
-	at stepDefinitions.LoginPageSteps.admin_enter_valid_credentials_with_and_and_clicks_login_button_in_login_module(LoginPageSteps.java:32)
-	at ✽.Admin enter valid  credentials with &quot;Login&quot; and &quot;LoginWithValidCredentials&quot; and clicks login button in login module.(file:///C:/Users/vijay/git/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/src/test/resources/features/03_01Program_Navigation.feature:6)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1678413715", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1678413715'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;username&apos;]&quot;}
+	at pageObjects.LoginPage.getLoginButton(LoginPage.java:143)
+	at stepDefinitions.LoginPageSteps.admin_should_land_on_login_page(LoginPageSteps.java:57)
+	at ✽.Admin should land on login page(file:///C:/Users/vijay/git/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/src/test/resources/features/02_01Home.feature:28)
+</pre></div><a href='#' onClick='toggleBox("stack-trace274725976", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace274725976'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@id=&apos;login&apos;]&quot;}
   (Session info: chrome=133.0.6943.127)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8c9d15fd490495fa5f92c87b047faa87, findElement {value=//input[@id=&apos;username&apos;], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Users\vijay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54585}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54585/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8c9d15fd490495fa5f92c87b047faa87
+Command: [996c6b8d6c53e550812263e6e41999b7, findElement {using=xpath, value=//button[@id=&apos;login&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Users\vijay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55008}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55008/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 996c6b8d6c53e550812263e6e41999b7
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -243,11 +203,349 @@ Session ID: 8c9d15fd490495fa5f92c87b047faa87
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
-	at pageObjects.LoginPage.clicklogin(LoginPage.java:94)
-	at stepDefinitions.LoginPageSteps.admin_enter_valid_credentials_with_and_and_clicks_login_button_in_login_module(LoginPageSteps.java:32)
-	at ✽.Admin enter valid  credentials with &quot;Login&quot; and &quot;LoginWithValidCredentials&quot; and clicks login button in login module.(file:///C:/Users/vijay/git/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/src/test/resources/features/03_01Program_Navigation.feature:6)
+	at pageObjects.LoginPage.getLoginButton(LoginPage.java:143)
+	at stepDefinitions.LoginPageSteps.admin_should_land_on_login_page(LoginPageSteps.java:57)
+	at ✽.Admin should land on login page(file:///C:/Users/vijay/git/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/src/test/resources/features/02_01Home.feature:28)
 </pre></div></td>
-<td>11</td>
+<td>10</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Admin is able to close the window with "X"", "Delete Program"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.support.ui.WebDriverWait.until(java.util.function.Function)&quot; because &quot;this.wait&quot; is null
+	at pageObjects.ProgramPageTwo.clickCloseBtn(ProgramPageTwo.java:201)
+	at stepDefinitions.DeleteProgramSteps.admin_click_on_button(DeleteProgramSteps.java:96)
+	at ✽.Admin Click on &quot;X&quot; button(file:///C:/Users/vijay/git/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/src/test/resources/features/03_06DeleteProgram.feature:22)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1808986169", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1808986169'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.support.ui.WebDriverWait.until(java.util.function.Function)&quot; because &quot;this.wait&quot; is null
+	at pageObjects.ProgramPageTwo.clickCloseBtn(ProgramPageTwo.java:201)
+	at stepDefinitions.DeleteProgramSteps.admin_click_on_button(DeleteProgramSteps.java:96)
+	at ✽.Admin Click on &quot;X&quot; button(file:///C:/Users/vijay/git/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/src/test/resources/features/03_06DeleteProgram.feature:22)
+</pre></div></td>
+<td>2</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check weekend dates are disabled in calendar in class module", "Add New Class popup"</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=133.0.6943.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [996c6b8d6c53e550812263e6e41999b7, isElementDisplayed {id=f.4ABA9128F17DDC45E7FFF4CF4CA43EBC.d.E2E238B79AB6ECB30E4A9A1A6A9B939E.e.28291}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Users\vijay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55008}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55008/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (996c6b8d6c53e550812263e6e41999b7)] -&gt; xpath: //span[@class=&apos;p-button-icon pi pi-calendar&apos;]]
+Session ID: 996c6b8d6c53e550812263e6e41999b7
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:282)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at pageObjects.ClassPage.isWeekendClassDateDisabled(ClassPage.java:461)
+	at stepDefinitions.AddNewClassPopUpSteps.admin_should_see_weekends_dates_are_disabled_to_select_in_class_module(AddNewClassPopUpSteps.java:50)
+	at ✽.Admin should see weekends dates are disabled to select in class module(file:///C:/Users/vijay/git/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/src/test/resources/features/05_03AddNewClassPopUp.feature:13)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1862737164", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1862737164'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=133.0.6943.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [996c6b8d6c53e550812263e6e41999b7, isElementDisplayed {id=f.4ABA9128F17DDC45E7FFF4CF4CA43EBC.d.E2E238B79AB6ECB30E4A9A1A6A9B939E.e.28291}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Users\vijay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55008}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55008/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (996c6b8d6c53e550812263e6e41999b7)] -&gt; xpath: //span[@class=&apos;p-button-icon pi pi-calendar&apos;]]
+Session ID: 996c6b8d6c53e550812263e6e41999b7
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:282)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:652)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at pageObjects.ClassPage.isWeekendClassDateDisabled(ClassPage.java:461)
+	at stepDefinitions.AddNewClassPopUpSteps.admin_should_see_weekends_dates_are_disabled_to_select_in_class_module(AddNewClassPopUpSteps.java:50)
+	at ✽.Admin should see weekends dates are disabled to select in class module(file:///C:/Users/vijay/git/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/src/test/resources/features/05_03AddNewClassPopUp.feature:13)
+</pre></div></td>
+<td>0</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check for single row delete", "Delete Multiple Classes"</td>
+<td><div><pre>java.lang.AssertionError: One of the checkbox row is not selected  in the class module expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at stepDefinitions.DeleteMultiplcClassSteps.one_of_the_checkbox_is_selected_in_the_class_module(DeleteMultiplcClassSteps.java:56)
+	at ✽.One of the checkbox is selected  in the class module(file:///C:/Users/vijay/git/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/src/test/resources/features/05_07DeleteMultipleClass.feature:20)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1101227375", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1101227375'><pre>java.lang.AssertionError: One of the checkbox row is not selected  in the class module expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at stepDefinitions.DeleteMultiplcClassSteps.one_of_the_checkbox_is_selected_in_the_class_module(DeleteMultiplcClassSteps.java:56)
+	at ✽.One of the checkbox is selected  in the class module(file:///C:/Users/vijay/git/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/src/test/resources/features/05_07DeleteMultipleClass.feature:20)
+</pre></div></td>
+<td>0</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Previous page link(<)", "Class Pagination"</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //button[@class=&apos;p-paginator-prev p-paginator-element p-link p-ripple&apos;] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Users\vijay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55008}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55008/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 996c6b8d6c53e550812263e6e41999b7
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pageObjects.ClassPage.clickPreviousLink(ClassPage.java:1505)
+	at stepDefinitions.ClassPaginationSteps.admin_clicks_previous_page_link_on_the_class_table(ClassPaginationSteps.java:61)
+	at ✽.Admin clicks Previous page link on the Class table(file:///C:/Users/vijay/git/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/src/test/resources/features/05_09ClassPagination.feature:26)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1423160574", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1423160574'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //button[@class=&apos;p-paginator-prev p-paginator-element p-link p-ripple&apos;] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Users\vijay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55008}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55008/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 996c6b8d6c53e550812263e6e41999b7
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pageObjects.ClassPage.clickPreviousLink(ClassPage.java:1505)
+	at stepDefinitions.ClassPaginationSteps.admin_clicks_previous_page_link_on_the_class_table(ClassPaginationSteps.java:61)
+	at ✽.Admin clicks Previous page link on the Class table(file:///C:/Users/vijay/git/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/src/test/resources/features/05_09ClassPagination.feature:26)
+</pre></div></td>
+<td>20</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Next page link(>)", "Class Pagination"</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //button[@class=&apos;p-paginator-next p-paginator-element p-link p-ripple&apos;] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Users\vijay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55008}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55008/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 996c6b8d6c53e550812263e6e41999b7
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pageObjects.ClassPage.clickNextLink(ClassPage.java:1435)
+	at stepDefinitions.ClassPaginationSteps.admin_clicks_next_page_link_on_the_class_table(ClassPaginationSteps.java:32)
+	at ✽.Admin clicks Next page link on the Class table(file:///C:/Users/vijay/git/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/src/test/resources/features/05_09ClassPagination.feature:15)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1380077804", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1380077804'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //button[@class=&apos;p-paginator-next p-paginator-element p-link p-ripple&apos;] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Users\vijay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55008}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55008/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 996c6b8d6c53e550812263e6e41999b7
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pageObjects.ClassPage.clickNextLink(ClassPage.java:1435)
+	at stepDefinitions.ClassPaginationSteps.admin_clicks_next_page_link_on_the_class_table(ClassPaginationSteps.java:32)
+	at ✽.Admin clicks Next page link on the Class table(file:///C:/Users/vijay/git/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/src/test/resources/features/05_09ClassPagination.feature:15)
+</pre></div></td>
+<td>10</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify First page link(<<)", "Class Pagination"</td>
+<td><div><pre>java.lang.AssertionError: Admin is not on Previous Class page expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at stepDefinitions.ClassPaginationSteps.admin_is_on_previous_class_page(ClassPaginationSteps.java:74)
+	at ✽.Admin is on Previous Class page(file:///C:/Users/vijay/git/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/src/test/resources/features/05_09ClassPagination.feature:30)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1880885548", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1880885548'><pre>java.lang.AssertionError: Admin is not on Previous Class page expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at stepDefinitions.ClassPaginationSteps.admin_is_on_previous_class_page(ClassPaginationSteps.java:74)
+	at ✽.Admin is on Previous Class page(file:///C:/Users/vijay/git/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/src/test/resources/features/05_09ClassPagination.feature:30)
+</pre></div></td>
+<td>10</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Sort Class by staff name", "Class Sorting Validation"</td>
+<td><div><pre>java.lang.AssertionError: The data get sorted on the table based on the Staff Name column values in ascending order expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at stepDefinitions.SortClassDetailsSteps.the_data_get_sorted_on_the_table_based_on_the_staff_name_column_values_in_ascending_order_in_the_class_module(SortClassDetailsSteps.java:198)
+	at ✽.The data get sorted on the table based on the staff name column values in ascending order in the Class module(file:///C:/Users/vijay/git/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/src/test/resources/features/05_05SortClassDetails.feature:60)
+</pre></div><a href='#' onClick='toggleBox("stack-trace946556798", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace946556798'><pre>java.lang.AssertionError: The data get sorted on the table based on the Staff Name column values in ascending order expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at stepDefinitions.SortClassDetailsSteps.the_data_get_sorted_on_the_table_based_on_the_staff_name_column_values_in_ascending_order_in_the_class_module(SortClassDetailsSteps.java:198)
+	at ✽.The data get sorted on the table based on the staff name column values in ascending order in the Class module(file:///C:/Users/vijay/git/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/src/test/resources/features/05_05SortClassDetails.feature:60)
+</pre></div></td>
+<td>0</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Admin is able to search Class by different inputs", "Class SearchBar"</td>
+<td><div><pre>java.lang.AssertionError: No record is not matching in seach expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at pageObjects.ClassPage.searchClass(ClassPage.java:1183)
+	at stepDefinitions.ClassSearchBarSteps.admin_should_see_class_details_are_searched_by_respective_inputs_in_the_class_module(ClassSearchBarSteps.java:27)
+	at ✽.Admin should see Class details are searched by respective inputs from &quot;Class&quot; and &quot;searchByClassTopic&quot; in the Class module(file:///C:/Users/vijay/git/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/src/test/resources/features/05_08ClassSearchBar.feature:12)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1520489781", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1520489781'><pre>java.lang.AssertionError: No record is not matching in seach expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at pageObjects.ClassPage.searchClass(ClassPage.java:1183)
+	at stepDefinitions.ClassSearchBarSteps.admin_should_see_class_details_are_searched_by_respective_inputs_in_the_class_module(ClassSearchBarSteps.java:27)
+	at ✽.Admin should see Class details are searched by respective inputs from &quot;Class&quot; and &quot;searchByClassTopic&quot; in the Class module(file:///C:/Users/vijay/git/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/src/test/resources/features/05_08ClassSearchBar.feature:12)
+</pre></div></td>
+<td>1</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if class is created when only mandatory fields are entered and when all fields are entered with valid data in class module", "Add New Class popup"</td>
+<td><div><pre>java.lang.AssertionError: Class was not created! expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at stepDefinitions.AddNewClassPopUpSteps.admin_gets_message_class_added_successfully_from_with_scenario_name_in_class_module(AddNewClassPopUpSteps.java:105)
+	at ✽.Admin gets message Class added Successfully from &quot;Class&quot; with scenario name &quot;addClassWithAllFields&quot; with Admin can see the class details popup closed and adding new class in class module(file:///C:/Users/vijay/git/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/src/test/resources/features/05_03AddNewClassPopUp.feature:44)
+</pre></div><a href='#' onClick='toggleBox("stack-trace685399117", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace685399117'><pre>java.lang.AssertionError: Class was not created! expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at stepDefinitions.AddNewClassPopUpSteps.admin_gets_message_class_added_successfully_from_with_scenario_name_in_class_module(AddNewClassPopUpSteps.java:105)
+	at ✽.Admin gets message Class added Successfully from &quot;Class&quot; with scenario name &quot;addClassWithAllFields&quot; with Admin can see the class details popup closed and adding new class in class module(file:///C:/Users/vijay/git/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/src/test/resources/features/05_03AddNewClassPopUp.feature:44)
+</pre></div></td>
+<td>24</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Admin is able to search Class by different inputs", "Class SearchBar"</td>
+<td><div><pre>java.lang.AssertionError: No record is not matching in seach expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at pageObjects.ClassPage.searchClass(ClassPage.java:1172)
+	at stepDefinitions.ClassSearchBarSteps.admin_should_see_class_details_are_searched_by_respective_inputs_in_the_class_module(ClassSearchBarSteps.java:27)
+	at ✽.Admin should see Class details are searched by respective inputs from &quot;Class&quot; and &quot;searchByBatchName&quot; in the Class module(file:///C:/Users/vijay/git/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/src/test/resources/features/05_08ClassSearchBar.feature:12)
+</pre></div><a href='#' onClick='toggleBox("stack-trace844187494", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace844187494'><pre>java.lang.AssertionError: No record is not matching in seach expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at pageObjects.ClassPage.searchClass(ClassPage.java:1172)
+	at stepDefinitions.ClassSearchBarSteps.admin_should_see_class_details_are_searched_by_respective_inputs_in_the_class_module(ClassSearchBarSteps.java:27)
+	at ✽.Admin should see Class details are searched by respective inputs from &quot;Class&quot; and &quot;searchByBatchName&quot; in the Class module(file:///C:/Users/vijay/git/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/src/test/resources/features/05_08ClassSearchBar.feature:12)
+</pre></div></td>
+<td>1</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Admin is able to close the window with "X"  in delete program", "DeleteMultipleProgram"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.support.ui.WebDriverWait.until(java.util.function.Function)&quot; because &quot;this.wait&quot; is null
+	at pageObjects.ProgramPageTwo.clickCloseBtn(ProgramPageTwo.java:201)
+	at stepDefinitions.MultipleDeleteProgramSteps.admin_clicks_button(MultipleDeleteProgramSteps.java:100)
+	at ✽.Admin Clicks &quot;X&quot; button(file:///C:/Users/vijay/git/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/src/test/resources/features/03_07DeleteMultipleProgram.feature:27)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2025644484", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2025644484'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.support.ui.WebDriverWait.until(java.util.function.Function)&quot; because &quot;this.wait&quot; is null
+	at pageObjects.ProgramPageTwo.clickCloseBtn(ProgramPageTwo.java:201)
+	at stepDefinitions.MultipleDeleteProgramSteps.admin_clicks_button(MultipleDeleteProgramSteps.java:100)
+	at ✽.Admin Clicks &quot;X&quot; button(file:///C:/Users/vijay/git/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/src/test/resources/features/03_07DeleteMultipleProgram.feature:27)
+</pre></div></td>
+<td>0</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify heading in manage program", "Program Validation feature"</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span class=&quot;mat-button-wrapper&quot;&gt;...&lt;/span&gt; is not clickable at point (1250, 32). Other element would receive the click: &lt;div class=&quot;cdk-overlay-backdrop cdk-overlay-transparent-backdrop cdk-overlay-backdrop-showing&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=133.0.6943.127)
+Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [996c6b8d6c53e550812263e6e41999b7, clickElement {id=f.4ABA9128F17DDC45E7FFF4CF4CA43EBC.d.BF6B3C3AD3FD6440FB81EED6C031453D.e.5554}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Users\vijay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55008}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55008/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (996c6b8d6c53e550812263e6e41999b7)] -&gt; xpath: //span[text()=&apos;Program&apos;]]
+Session ID: 996c6b8d6c53e550812263e6e41999b7
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at pageObjects.ProgramPage.clickProgram(ProgramPage.java:65)
+	at stepDefinitions.Program_NavigationSteps.admin_clicks_on_the_navigation_bar(Program_NavigationSteps.java:32)
+	at ✽.Admin clicks &quot;Program&quot; on the navigation bar(file:///C:/Users/vijay/git/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/src/test/resources/features/03_03ProgramPage_Validation.feature:16)
+</pre></div><a href='#' onClick='toggleBox("stack-trace837923432", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace837923432'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span class=&quot;mat-button-wrapper&quot;&gt;...&lt;/span&gt; is not clickable at point (1250, 32). Other element would receive the click: &lt;div class=&quot;cdk-overlay-backdrop cdk-overlay-transparent-backdrop cdk-overlay-backdrop-showing&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=133.0.6943.127)
+Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [996c6b8d6c53e550812263e6e41999b7, clickElement {id=f.4ABA9128F17DDC45E7FFF4CF4CA43EBC.d.BF6B3C3AD3FD6440FB81EED6C031453D.e.5554}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Users\vijay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55008}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55008/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (996c6b8d6c53e550812263e6e41999b7)] -&gt; xpath: //span[text()=&apos;Program&apos;]]
+Session ID: 996c6b8d6c53e550812263e6e41999b7
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at pageObjects.ProgramPage.clickProgram(ProgramPage.java:65)
+	at stepDefinitions.Program_NavigationSteps.admin_clicks_on_the_navigation_bar(Program_NavigationSteps.java:32)
+	at ✽.Admin clicks &quot;Program&quot; on the navigation bar(file:///C:/Users/vijay/git/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/src/test/resources/features/03_03ProgramPage_Validation.feature:16)
+</pre></div></td>
+<td>2</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the alignment input field for the login", "Login"</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at stepDefinitions.LoginPageSteps.admin_validates_the_input_field_on_the_centre_of_the_page(LoginPageSteps.java:148)
+	at ✽.Admin validates the input field on the centre of the page(file:///C:/Users/vijay/git/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/src/test/resources/features/01_01Login.feature:82)
+</pre></div><a href='#' onClick='toggleBox("stack-trace980607720", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace980607720'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at stepDefinitions.LoginPageSteps.admin_validates_the_input_field_on_the_centre_of_the_page(LoginPageSteps.java:148)
+	at ✽.Admin validates the input field on the centre of the page(file:///C:/Users/vijay/git/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/src/test/resources/features/01_01Login.feature:82)
+</pre></div></td>
+<td>0</td>
 <td>runner.TestRunner@3b79fd76</td></tr>
 <tr>
 <td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate login with valid credentials", "Program Menubar feature"</td>
@@ -257,9 +555,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8c9d15fd490495fa5f92c87b047faa87, findElement {value=//input[@id=&apos;username&apos;], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Users\vijay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54585}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54585/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8c9d15fd490495fa5f92c87b047faa87
+Command: [996c6b8d6c53e550812263e6e41999b7, findElement {using=xpath, value=//input[@id=&apos;username&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Users\vijay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55008}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55008/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 996c6b8d6c53e550812263e6e41999b7
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -274,19 +572,19 @@ Session ID: 8c9d15fd490495fa5f92c87b047faa87
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
-	at pageObjects.LoginPage.clicklogin(LoginPage.java:94)
-	at stepDefinitions.LoginPageSteps.admin_enter_valid_credentials_with_and_and_clicks_login_button_in_login_module(LoginPageSteps.java:32)
+	at pageObjects.LoginPage.clicklogin(LoginPage.java:121)
+	at stepDefinitions.LoginPageSteps.admin_enter_valid_credentials_with_and_and_clicks_login_button_in_login_module(LoginPageSteps.java:39)
 	at ✽.Admin enter valid  credentials with &quot;Login&quot; and &quot;LoginWithValidCredentials&quot; and clicks login button in login module.(file:///C:/Users/vijay/git/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/src/test/resources/features/03_02Program_MenuBar.feature:6)
-</pre></div><a href='#' onClick='toggleBox("stack-trace936828380", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace936828380'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;username&apos;]&quot;}
+</pre></div><a href='#' onClick='toggleBox("stack-trace1532728609", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1532728609'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;username&apos;]&quot;}
   (Session info: chrome=133.0.6943.127)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8c9d15fd490495fa5f92c87b047faa87, findElement {value=//input[@id=&apos;username&apos;], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Users\vijay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54585}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54585/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8c9d15fd490495fa5f92c87b047faa87
+Command: [996c6b8d6c53e550812263e6e41999b7, findElement {using=xpath, value=//input[@id=&apos;username&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Users\vijay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55008}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55008/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 996c6b8d6c53e550812263e6e41999b7
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -301,11 +599,97 @@ Session ID: 8c9d15fd490495fa5f92c87b047faa87
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
-	at pageObjects.LoginPage.clicklogin(LoginPage.java:94)
-	at stepDefinitions.LoginPageSteps.admin_enter_valid_credentials_with_and_and_clicks_login_button_in_login_module(LoginPageSteps.java:32)
+	at pageObjects.LoginPage.clicklogin(LoginPage.java:121)
+	at stepDefinitions.LoginPageSteps.admin_enter_valid_credentials_with_and_and_clicks_login_button_in_login_module(LoginPageSteps.java:39)
 	at ✽.Admin enter valid  credentials with &quot;Login&quot; and &quot;LoginWithValidCredentials&quot; and clicks login button in login module.(file:///C:/Users/vijay/git/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/src/test/resources/features/03_02Program_MenuBar.feature:6)
 </pre></div></td>
-<td>12</td>
+<td>11</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Last page link(>>)", "Class Pagination"</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //button[@class=&apos;p-paginator-last p-paginator-element p-link p-ripple ng-star-inserted&apos;] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Users\vijay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55008}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55008/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 996c6b8d6c53e550812263e6e41999b7
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pageObjects.ClassPage.clickLastLink(ClassPage.java:1464)
+	at stepDefinitions.ClassPaginationSteps.admin_clicks_last_page_link_on_the_class_table(ClassPaginationSteps.java:43)
+	at ✽.Admin clicks Last page link on the Class table(file:///C:/Users/vijay/git/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/src/test/resources/features/05_09ClassPagination.feature:21)
+</pre></div><a href='#' onClick='toggleBox("stack-trace752226603", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace752226603'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //button[@class=&apos;p-paginator-last p-paginator-element p-link p-ripple ng-star-inserted&apos;] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Users\vijay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55008}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55008/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 996c6b8d6c53e550812263e6e41999b7
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pageObjects.ClassPage.clickLastLink(ClassPage.java:1464)
+	at stepDefinitions.ClassPaginationSteps.admin_clicks_last_page_link_on_the_class_table(ClassPaginationSteps.java:43)
+	at ✽.Admin clicks Last page link on the Class table(file:///C:/Users/vijay/git/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/src/test/resources/features/05_09ClassPagination.feature:21)
+</pre></div></td>
+<td>10</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate login with valid credentials", "Class Page Validation"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;username&apos;]&quot;}
+  (Session info: chrome=133.0.6943.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [996c6b8d6c53e550812263e6e41999b7, findElement {using=xpath, value=//input[@id=&apos;username&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Users\vijay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55008}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55008/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 996c6b8d6c53e550812263e6e41999b7
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+	at pageObjects.LoginPage.clicklogin(LoginPage.java:121)
+	at stepDefinitions.LoginPageSteps.admin_enter_valid_credentials_with_and_and_clicks_login_button_in_login_module(LoginPageSteps.java:39)
+	at ✽.Admin enter valid  credentials with &quot;Login&quot; and &quot;LoginWithValidCredentials&quot; and clicks login button in login module.(file:///C:/Users/vijay/git/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/src/test/resources/features/05_01ClassPageValidation.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace5525099", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace5525099'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;username&apos;]&quot;}
+  (Session info: chrome=133.0.6943.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [996c6b8d6c53e550812263e6e41999b7, findElement {using=xpath, value=//input[@id=&apos;username&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.127, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Users\vijay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55008}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55008/devtoo..., se:cdpVersion: 133.0.6943.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 996c6b8d6c53e550812263e6e41999b7
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+	at pageObjects.LoginPage.clicklogin(LoginPage.java:121)
+	at stepDefinitions.LoginPageSteps.admin_enter_valid_credentials_with_and_and_clicks_login_button_in_login_module(LoginPageSteps.java:39)
+	at ✽.Admin enter valid  credentials with &quot;Login&quot; and &quot;LoginWithValidCredentials&quot; and clicks login button in login module.(file:///C:/Users/vijay/git/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/Team13_QuantumCoders_LMS_UIHackathon_Feb2025/src/test/resources/features/05_01ClassPageValidation.feature:7)
+</pre></div></td>
+<td>11</td>
 <td>runner.TestRunner@3b79fd76</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
@@ -317,67 +701,52 @@ Session ID: 8c9d15fd490495fa5f92c87b047faa87
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the Search button", "Program Validation feature"</td>
-<td></td>
-<td>0</td>
-<td>runner.TestRunner@3b79fd76</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify pagination icons below data table in manage program", "Program Validation feature"</td>
-<td></td>
-<td>0</td>
-<td>runner.TestRunner@3b79fd76</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify checkbox default state beside Program Name column header", "Program Validation feature"</td>
-<td></td>
-<td>0</td>
-<td>runner.TestRunner@3b79fd76</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that Admin is able to navigate to Program page", "Program Navigation Feature"</td>
-<td></td>
-<td>0</td>
-<td>runner.TestRunner@3b79fd76</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify mandatory fields with red asterisk mark", "Add New Program"</td>
-<td></td>
-<td>0</td>
-<td>runner.TestRunner@3b79fd76</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify cancel button", "Add New Program"</td>
-<td></td>
-<td>0</td>
-<td>runner.TestRunner@3b79fd76</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify sub menu displayed in program menu bar", "Program Menubar feature"</td>
-<td></td>
-<td>0</td>
-<td>runner.TestRunner@3b79fd76</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify footer message in manage program", "Program Validation feature"</td>
-<td></td>
-<td>0</td>
-<td>runner.TestRunner@3b79fd76</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify select Status", "Add New Program"</td>
-<td></td>
-<td>0</td>
-<td>runner.TestRunner@3b79fd76</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify view details of programs", "Program Validation feature"</td>
-<td></td>
-<td>0</td>
-<td>runner.TestRunner@3b79fd76</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify close window with "X"", "Add New Program"</td>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Empty form submission in class module", "Add New Class popup"</td>
 <td></td>
 <td>1</td>
 <td>runner.TestRunner@3b79fd76</td></tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify title of the pop up window", "Add New Program"</td>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating fields in the class manage page", "Class Page Validation"</td>
 <td></td>
 <td>0</td>
 <td>runner.TestRunner@3b79fd76</td></tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify add New Program", "Add New Program"</td>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the text spelling in the page", "Login"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify title of the pop up window", "Edit Program"</td>
+<td></td>
+<td>3</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify empty form submission", "Add New Program"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify sorting of   Program status in Ascending order/Descending order", "Manage Program - Sorting Program"</td>
+<td></td>
+<td>2</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify edit and delete icon in manage program", "Program Validation feature"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Cancel/Close(X) icon on class Details form in class module", "Add New Class popup"</td>
+<td></td>
+<td>12</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Admin is able to save the program details", "Add New Program"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating fields in the class manage page", "Class Page Validation"</td>
 <td></td>
 <td>0</td>
 <td>runner.TestRunner@3b79fd76</td></tr>
@@ -387,44 +756,144 @@ Session ID: 8c9d15fd490495fa5f92c87b047faa87
 <td>0</td>
 <td>runner.TestRunner@3b79fd76</td></tr>
 <tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Admin is able to land on home page with invalid URL", "Login"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify checkbox default state beside Program Name column header", "Program Validation feature"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify footer message in manage program", "Program Validation feature"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check disabled batch name in the Class PopUp in Class Module", "Edit New Class"</td>
+<td></td>
+<td>2</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify for broken link", "Login"</td>
+<td></td>
+<td>10</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check no of classes value added when selecting class dates in class module", "Add New Class popup"</td>
+<td></td>
+<td>2</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify asterisk next to USER text", "Login"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Edit option", "Edit Program"</td>
+<td></td>
+<td>3</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Close(X) icon on Confirm Deletion alert in class module", "Delete Class"</td>
+<td></td>
+<td>10</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify close window with "X"", "Add New Program"</td>
+<td></td>
+<td>2</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Admin is able to click Save", "Edit Program"</td>
+<td></td>
+<td>3</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Class link to other page on navigation bar", "Navigation Validation from Manage Class to other Pages"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Sort Class by Batch name", "Class Sorting Validation"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify enter Program and Description name", "Add New Program"</td>
+<td></td>
+<td>4</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Admin is able to search results found for program description", "Search Bar program"</td>
+<td></td>
+<td>2</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate row level delete icon in Class Module", "Delete Class"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
 <td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify cancel program details", "Add New Program"</td>
 <td></td>
 <td>1</td>
 <td>runner.TestRunner@3b79fd76</td></tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the Multiple Delete button state", "Program Validation feature"</td>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Sort Class by Class date", "Class Sorting Validation"</td>
 <td></td>
 <td>0</td>
 <td>runner.TestRunner@3b79fd76</td></tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Admin is able to save the program details", "Add New Program"</td>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify pagination icons below data table in manage program", "Program Validation feature"</td>
 <td></td>
 <td>0</td>
 <td>runner.TestRunner@3b79fd76</td></tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify edit and delete icon in manage program", "Program Validation feature"</td>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Admin is able to click 'Yes'", "Delete Program"</td>
+<td></td>
+<td>2</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating fields in the class manage page", "Class Page Validation"</td>
 <td></td>
 <td>0</td>
 <td>runner.TestRunner@3b79fd76</td></tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify heading in manage program", "Program Validation feature"</td>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify edit Program Name", "Edit Program"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate No on deletion window in Class Module", "Delete Class"</td>
 <td></td>
 <td>0</td>
 <td>runner.TestRunner@3b79fd76</td></tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify enter program name", "Add New Program"</td>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Admin is able to select multiple programs", "DeleteMultipleProgram"</td>
+<td></td>
+<td>3</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the Search button", "Program Validation feature"</td>
 <td></td>
 <td>0</td>
 <td>runner.TestRunner@3b79fd76</td></tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify added Program is created", "Add New Program"</td>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify sub menu displayed in program menu bar", "Program Menubar feature"</td>
 <td></td>
-<td>0</td>
+<td>1</td>
 <td>runner.TestRunner@3b79fd76</td></tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Logout displayed in menu bar", "Program Menubar feature"</td>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check invalid login", "Login"</td>
 <td></td>
-<td>0</td>
+<td>6</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if the fields are updated with valid data in Class Module", "Edit New Class"</td>
+<td></td>
+<td>17</td>
 <td>runner.TestRunner@3b79fd76</td></tr>
 <tr>
 <td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify checkboxes default state beside each Program names in the data table", "Program Validation feature"</td>
@@ -432,19 +901,34 @@ Session ID: 8c9d15fd490495fa5f92c87b047faa87
 <td>0</td>
 <td>runner.TestRunner@3b79fd76</td></tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate login with valid credentials", "Login"</td>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Admin is able to search results not found", "Search Bar program"</td>
 <td></td>
-<td>7</td>
+<td>3</td>
 <td>runner.TestRunner@3b79fd76</td></tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify heading in menu bar", "Program Menubar feature"</td>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Admin is able to click Cancel", "Edit Program"</td>
+<td></td>
+<td>3</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check invalid login", "Login"</td>
+<td></td>
+<td>4</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify delete feature", "Delete Program"</td>
+<td></td>
+<td>2</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the Multiple Delete button state", "Program Validation feature"</td>
 <td></td>
 <td>0</td>
 <td>runner.TestRunner@3b79fd76</td></tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify enter description", "Add New Program"</td>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Admin is able to land on Home page", "Scenarios related to Home Page functionality"</td>
 <td></td>
-<td>0</td>
+<td>4</td>
 <td>runner.TestRunner@3b79fd76</td></tr>
 <tr>
 <td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify sub menu displayed in program menu bar", "Add New Program"</td>
@@ -452,7 +936,262 @@ Session ID: 8c9d15fd490495fa5f92c87b047faa87
 <td>1</td>
 <td>runner.TestRunner@3b79fd76</td></tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify empty form submission", "Add New Program"</td>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Cancel button on Class Edit popup in Class Module", "Edit New Class"</td>
+<td></td>
+<td>14</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if the fields are updated with valid data in Class Module", "Edit New Class"</td>
+<td></td>
+<td>30</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Admin is able to search with partial program name", "Search Bar program"</td>
+<td></td>
+<td>3</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Admin is able to land on login page", "Login"</td>
+<td></td>
+<td>4</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify add New Program", "Add New Program"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Admin is able to click 'No'", "Delete Program"</td>
+<td></td>
+<td>3</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify title of the pop up window", "Add New Program"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Sort Class by Class topic", "Class Sorting Validation"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify heading in menu bar", "Program Menubar feature"</td>
+<td></td>
+<td>1</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify cancel button", "Add New Program"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Logout link on navigation bar", "Navigation Validation from Manage Class to other Pages"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify sorting of  Program name in Ascending order/Descending order", "Manage Program - Sorting Program"</td>
+<td></td>
+<td>2</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check for multi row delete", "Delete Multiple Classes"</td>
+<td></td>
+<td>1</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate input fields and their text boxes in Class details form in class module", "Add New Class"</td>
+<td></td>
+<td>3</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Class Details Popup window in class module", "Add New Class"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify asterisk next to USER text", "Login"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Admin is able to click 'No' in multiple delete program", "DeleteMultipleProgram"</td>
+<td></td>
+<td>3</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate login with valid credentials", "Login"</td>
+<td></td>
+<td>4</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify text field is present", "Login"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Admin is able to search results found for program name", "Search Bar program"</td>
+<td></td>
+<td>3</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify text on the first field", "Login"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify placeholder in dropdown to select role", "Login"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify mandatory fields with red asterisk mark", "Add New Program"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify view details of programs", "Program Validation feature"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify dropdown option to select role", "Login"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Common Delete button enabled after clicking on any checkbox", "Delete Multiple Classes"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Admin is able to delete Multiple programs", "DeleteMultipleProgram"</td>
+<td></td>
+<td>3</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Sort Class by Status", "Class Sorting Validation"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify edit Description", "Edit Program"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Logout displayed in menu bar", "Program Menubar feature"</td>
+<td></td>
+<td>1</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating fields in the class manage page", "Class Page Validation"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Yes on deletion window in Class Module", "Delete Class"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating fields in the class manage page", "Class Page Validation"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate row level edit icon in Class Module", "Edit New Class"</td>
+<td></td>
+<td>3</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that Admin is able to navigate to Program page", "Program Navigation Feature"</td>
+<td></td>
+<td>1</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Admin is able to click 'Yes' in multiple delete program", "DeleteMultipleProgram"</td>
+<td></td>
+<td>3</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Admin is able to search Class by different inputs", "Class SearchBar"</td>
+<td></td>
+<td>1</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify text on the second field", "Login"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating fields in the class manage page", "Class Page Validation"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify sorting of  Program Descriptionin  Ascending order/Descending order", "Manage Program - Sorting Program"</td>
+<td></td>
+<td>3</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check disabled class topic in the Class PopUp in Class Module", "Edit New Class"</td>
+<td></td>
+<td>2</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify dropdown field is present", "Login"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Class link on navigation bar", "Navigation Validation from Manage Class to other Pages"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Admin is on the Class Page after logged in", "Class Pagination"</td>
+<td></td>
+<td>1</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify added Program is created", "Add New Program"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Sort Class by Class Description", "Class Sorting Validation"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify edit Status", "Edit Program"</td>
+<td></td>
+<td>3</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify select Status", "Add New Program"</td>
+<td></td>
+<td>1</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating fields in the class manage page", "Class Page Validation"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating fields in the class manage page", "Class Page Validation"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if class is created when only optional fields are entered with valid data in class module", "Add New Class popup"</td>
+<td></td>
+<td>9</td>
+<td>runner.TestRunner@3b79fd76</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating fields in the class manage page", "Class Page Validation"</td>
 <td></td>
 <td>0</td>
 <td>runner.TestRunner@3b79fd76</td></tr>

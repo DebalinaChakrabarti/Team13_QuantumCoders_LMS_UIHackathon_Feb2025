@@ -14,6 +14,9 @@ import driverFactory.DriverFactory;
 import pageObjects.LoginPage;
 import pageObjects.ProgramPage;
 import pageObjects.ProgramPageTwo;
+import pageObjects.ClassPage;
+import pageObjects.HomePage;
+import pageObjects.LogOutPage;
 
 public class Context {
 
@@ -21,6 +24,9 @@ public class Context {
 	private LoginPage loginPage;
 	private ProgramPage program;
 	private ProgramPageTwo programPage;
+	private ClassPage classPage;	
+	private LogOutPage logoutPage;
+	private HomePage homePage;
 	
 
 	public Context() {
@@ -28,6 +34,10 @@ public class Context {
 		loginPage = new LoginPage(driverFactory.getDriver());
 		program = new ProgramPage(driverFactory.getDriver());
 		programPage= new ProgramPageTwo(driverFactory.getDriver());
+		classPage = new ClassPage(driverFactory.getDriver());
+		logoutPage = new LogOutPage(driverFactory.getDriver());
+		homePage = new HomePage(driverFactory.getDriver());
+
 		
 	}
 
@@ -50,6 +60,17 @@ public class Context {
 	public void openBaseURL(String url) {
 		getDriverFactory().getDriver().get(url); // Use WebDriver to open the URL
 	}
+	public LogOutPage getLogOutPage() {
+		return logoutPage;
+	}
+	
+	public HomePage getHomePage() {
+		return homePage;
+	}
+	public ClassPage getClassPage() {
+		return classPage;
+	}
+
 
 
 }
