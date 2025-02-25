@@ -7,6 +7,8 @@ import driverFactory.DriverFactory;
 import pageObjects.BatchPage;
 import pageObjects.ClassPage;
 import pageObjects.HomePage;
+import pageObjects.ProgramPage;
+import pageObjects.ProgramPageTwo;
 import pageObjects.LogOutPage;
 //import pageObjects.AddNewClass;
 //import pageObjects.AddNewClassPopup;
@@ -21,7 +23,9 @@ import pageObjects.LoginPage;
 public class Context {
 	
 	private DriverFactory driverFactory;
-	private LoginPage loginPage;	
+	private LoginPage loginPage;
+	private ProgramPage program;
+	private ProgramPageTwo programPage;
 	private ClassPage classPage;	
 	private LogOutPage logoutPage;
 	private HomePage homePage;
@@ -30,6 +34,8 @@ public class Context {
 	public Context() {
 		driverFactory = new DriverFactory();
 		loginPage = new LoginPage(driverFactory.getDriver());
+		program = new ProgramPage(driverFactory.getDriver());
+		programPage= new ProgramPageTwo(driverFactory.getDriver());
 		classPage = new ClassPage(driverFactory.getDriver());
 		logoutPage = new LogOutPage(driverFactory.getDriver());
 		homePage = new HomePage(driverFactory.getDriver());
@@ -43,6 +49,12 @@ public class Context {
 
 	public LoginPage getLoginPage() {
 		return loginPage;
+	}
+	public  ProgramPage ProgramPage  () {
+		return program;
+	}
+	public ProgramPageTwo getEditProgramPage() {
+		return programPage;
 	}
 
 	public ClassPage getClassPage() {
