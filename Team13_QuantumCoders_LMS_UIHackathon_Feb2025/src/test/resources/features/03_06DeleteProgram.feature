@@ -3,7 +3,7 @@ Feature: Delete Program
 
 
 Scenario: Verify delete feature
-Given Admin is on Program page
+Given Admin is on Program page in delete
 When Admin clicks on delete button for a program
 Then Admin will get confirm deletion popup
 

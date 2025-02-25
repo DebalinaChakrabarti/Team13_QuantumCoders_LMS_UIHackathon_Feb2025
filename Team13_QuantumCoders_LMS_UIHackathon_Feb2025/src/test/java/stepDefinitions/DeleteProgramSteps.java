@@ -33,7 +33,7 @@ public class DeleteProgramSteps extends Constants {
 	//	 programPage.clickProgramBtn();
 	//}
 
-	@Given("Admin is on Program page")
+	@Given("Admin is on Program page in delete")
 	public void admin_is_on_program_page() throws InterruptedException {
 		programPage.getprogramUrl();
 		programPage.clickProgramBtn();
