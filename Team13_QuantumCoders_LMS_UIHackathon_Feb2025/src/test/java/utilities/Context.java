@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 import driverFactory.DriverFactory;
+import pageObjects.BatchPage;
 import pageObjects.ClassPage;
 import pageObjects.HomePage;
 import pageObjects.LogOutPage;
@@ -24,6 +25,7 @@ public class Context {
 	private ClassPage classPage;	
 	private LogOutPage logoutPage;
 	private HomePage homePage;
+	private BatchPage batchPage;
 
 	public Context() {
 		driverFactory = new DriverFactory();
@@ -31,6 +33,7 @@ public class Context {
 		classPage = new ClassPage(driverFactory.getDriver());
 		logoutPage = new LogOutPage(driverFactory.getDriver());
 		homePage = new HomePage(driverFactory.getDriver());
+		batchPage = new BatchPage(driverFactory.getDriver());
 	}
 
 
@@ -46,9 +49,9 @@ public class Context {
 		return classPage;
 	}
 	
-	public void openBaseURL(String url) {
-		getDriverFactory().getDriver().get(url); // Use WebDriver to open the URL
-	}
+//	public void openBaseURL(String url) {
+//		getDriverFactory().getDriver().get(url); // Use WebDriver to open the URL
+//	}
 
 	public LogOutPage getLogOutPage() {
 		return logoutPage;
@@ -58,5 +61,8 @@ public class Context {
 		return homePage;
 	}
 
+	public BatchPage getBatchPage() {
+		return batchPage;
+	}
 
 }
